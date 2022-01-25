@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class MovieService {
 
-  movieUrl = "http://127.0.0.1:8000/admin/movies";
+  movieUrl = "http://127.0.0.1:8000/api/movies";
 
   constructor(private http : HttpClient) { }
 
